@@ -443,16 +443,14 @@ if (news>=0) {
    request.onreadystatechange= function() {
        if (request.readyState == 4 && request.status == 200) {
            let mydata= JSON.parse(request.responseText) 
-           let theinfo= mydata.articles[0].title
+           let infopieceone= mydata.articles[0].title
+           let infopiecetwo= mydata.articles[1].title
+           let fullpicture= infopieceone + '  ' + infopiecetwo
            let sound= new Audio()
            console.log(theinfo)
-       sound.src= "https://translate.google.com/translate_tts?ie=UTF-8&q=" + theinfo  +"&tl=en&client=tw-ob"
+       sound.src= "https://translate.google.com/translate_tts?ie=UTF-8&q=" + fullpicture  +"&tl=en&client=tw-ob"
         sound.play()
      }
-     let sound= new Audio()
-        console.log(desc)
-    sound.src= "https://translate.google.com/translate_tts?ie=UTF-8&q=" + desc  +"&tl=en&client=tw-ob"
-     sound.play()
     }
 request.open("GET", url= "https://newsapi.org/v2/top-headlines?country=us&apiKey=dd0a135d268c47b5b3305d751c91d750", true);
 request.send();
