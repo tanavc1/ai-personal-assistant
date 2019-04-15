@@ -436,5 +436,25 @@ if (whoissboom>=0) {
     }
 request.open("GET", url= "https://api.duckduckgo.com/?q="+issraw+"&format=json", true);
 request.send();
-}  
+} 
+let news= command.indexOf('news')
+if (news>=0) {
+    var request= new XMLHttpRequest() 
+   request.onreadystatechange= function() {
+       if (request.readyState == 4 && request.status == 200) {
+           let mydata= JSON.parse(request.responseText) 
+           let theinfo= mydata.articles[0].title
+           let sound= new Audio()
+           console.log(theinfo)
+       sound.src= "https://translate.google.com/translate_tts?ie=UTF-8&q=" + theinfo  +"&tl=en&client=tw-ob"
+        sound.play()
+     }
+     let sound= new Audio()
+        console.log(desc)
+    sound.src= "https://translate.google.com/translate_tts?ie=UTF-8&q=" + desc  +"&tl=en&client=tw-ob"
+     sound.play()
+    }
+request.open("GET", url= "https://newsapi.org/v2/top-headlines?country=us&apiKey=dd0a135d268c47b5b3305d751c91d750", true);
+request.send();
+}     
 }
