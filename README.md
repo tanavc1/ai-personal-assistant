@@ -28,7 +28,8 @@ SOURCES:
 
  “Data provided for free by IEX. View IEX’s Terms of Use.”
  
- https://iextrading.com/developer/
+ https://iextrading.com/developer/ 
+ 
  https://iextrading.com/api-exhibit-a/ 
  
  https://openweathermap.org/ 
