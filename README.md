@@ -23,3 +23,20 @@ Here is what you can do with it:
 9. You can learn about anything in format: "tell me about ____" 
 10. You can ask to tell jokes  
 11. Can give you stock price in format: " What is the stock price of ______(ticker symbol ex. UA, TSLA)
+
+SOURCES: 
+
+ “Data provided for free by IEX. View IEX’s Terms of Use.”
+ 
+ https://iextrading.com/developer/
+ https://iextrading.com/api-exhibit-a/ 
+ 
+ https://openweathermap.org/ 
+ 
+ http://www.omdbapi.com/ 
+ 
+ https://duckduckgo.com/api  
+ 
+ https://icanhazdadjoke.com/slack
+ 
+ http://worldclockapi.com/api/json/utc/now
