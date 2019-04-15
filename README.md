@@ -26,21 +26,21 @@ Here is what you can do with it:
 
 SOURCES: 
 
- “Data provided for free by IEX. View IEX’s Terms of Use.”
+ “Stock data provided for free by IEX. View IEX’s Terms of Use.”
+  https://iextrading.com/developer/ 
+  https://iextrading.com/api-exhibit-a/ 
  
- https://iextrading.com/developer/ 
+ powered by https://openweathermap.org/ 
  
- https://iextrading.com/api-exhibit-a/ 
+ powered by http://www.omdbapi.com/ 
  
- https://openweathermap.org/ 
+ powered by  https://duckduckgo.com/api  
  
- http://www.omdbapi.com/ 
+ powered by https://icanhazdadjoke.com/slack
  
- https://duckduckgo.com/api  
+ powered by http://worldclockapi.com/api/json/utc/now 
  
- https://icanhazdadjoke.com/slack
- 
- http://worldclockapi.com/api/json/utc/now
+ powered by https://newsapi.org
  
  
 
