@@ -4,7 +4,7 @@ An amazing bot that talks back with user input. It can tell you the temperature,
 
 1. Download the folder
 2. open the folder
-3. Double click on ai.html
+3. Double click on assistant.html
 4. Now you have it, and can use it!
 
 
