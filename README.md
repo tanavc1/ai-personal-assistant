@@ -1,5 +1,5 @@
-# ai-personal-assistant
-An amazing AI that talks back with user input. It can tell you the temperature, what the weather is like, movie plot, movie rating, stocks, jokes, about someone, flip a coin, reminder, and many more!
+# personal-assistant
+An amazing bot that talks back with user input. It can tell you the temperature, what the weather is like, movie plot, movie rating, stocks, jokes, about someone, flip a coin, reminder, and many more!
 
 
 1. Download the folder
